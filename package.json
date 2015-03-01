@@ -1,0 +1,15 @@
+{
+  "name": "homenet-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hue": "0.0.0",
+    "node-hue-api": "^1.0.5"
+  }
+}
