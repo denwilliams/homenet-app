@@ -10,7 +10,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "homenet-core": "^4.0.0-alpha.2",
+    "homenet-core": "^4.0.0-alpha.3",
     "homenet-plugin-hue": "0.0.1",
     "node-red": "^0.13.4"
   }
