@@ -2,7 +2,12 @@ const RED = require('node-red');
 import core = require('homenet-core');
 
 import { HuePluginLoader } from '../plugins';
+import { join } from 'path';
 
-const runtime = core.init(RED);
+const configFilename = join(process.cwd(), process.argv[process.argv.length - 1]);
+console.log('Loading with config: ' + configFilename);
+const config = require(configFilename);
+
+const runtime = core.init(RED, config);
 runtime.loadPlugin(HuePluginLoader);
 runtime.start();
