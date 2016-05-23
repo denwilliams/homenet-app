@@ -26,3 +26,28 @@ node_modules
 
 # Users Environment Variables
 .lock-wscript
+
+
+___junk
+.DS_Store
+typings
+
+src/lib/test.ts
+
+lib/**/*.js
+lib/**/*.d.ts
+lib/**/*.js.map
+
+plugins/**/*.js
+plugins/**/*.d.ts
+plugins/**/*.js.map
+
+config-server.js
+config.js
+main.js
+
+lib_old
+hue
+
+run-core-red.js
+run-homenet.js

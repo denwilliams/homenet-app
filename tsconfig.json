@@ -1,0 +1,51 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "target": "es5",
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "sourceMap": true,
+        "declaration": true,
+        "listFiles": false,
+        "outDir": "./"
+    },
+    "compilerOptions_disabled": {
+      "noImplicitAny": true,
+      "noImplicitReturns": true,
+      "outFile": "./build/tsc.js",
+      "out": "./built/local/tsc.js"
+    },
+    "files": [
+      "node_modules/homenet-core/homenet-core.d.ts",
+      "node_modules/homenet-plugin-hue/homenet-plugin-hue.d.ts",
+      "typings/main.d.ts",
+      "src/lib/index.ts",
+      "src/plugins/index.ts"
+    ],
+    "exclude": [
+      "node_modules/homenet-core/src/interfaces.d.ts"
+    ],
+    "excludeXX": [
+      "node_modules/homenet-plugin-hue/homenet-plugin-hue.d.ts",
+      "typedoc",
+      "old_lib",
+      "old_src",
+      "old_test",
+      "node_modules",
+      "wwwroot",
+      "build",
+      "built",
+      "data",
+      "docs",
+      "logs",
+      "nodes",
+      "out",
+      "plugins",
+      "sample",
+      "src",
+      "tmp"
+    ]
+}
