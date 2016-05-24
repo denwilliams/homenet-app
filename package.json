@@ -4,6 +4,7 @@
   "description": "",
   "main": "lib/index.js",
   "scripts": {
+    "build": "typings install && tsc",
     "start": "node lib/index myconfig.js",
     "test": "mocha"
   },
