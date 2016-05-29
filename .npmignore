@@ -30,7 +30,6 @@ node_modules
 
 ___junk
 .DS_Store
-typings
 
 src/lib/test.ts
 

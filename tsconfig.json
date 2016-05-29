@@ -21,6 +21,7 @@
     "files": [
       "node_modules/homenet-core/homenet-core.d.ts",
       "node_modules/homenet-plugin-hue/homenet-plugin-hue.d.ts",
+      "node_modules/homenet-plugin-milight/homenet-plugin-milight.d.ts",
       "node_modules/homenet-plugin-ninjablock/homenet-plugin-ninjablock.d.ts",
       "typings/main.d.ts",
       "src/lib/index.ts",
