@@ -1,14 +1,14 @@
 {
   "name": "homenet-app",
-  "version": "0.0.1",
-  "description": "",
+  "version": "0.0.2",
+  "description": "Homenet: home automation for developers - Application",
   "main": "lib/index.js",
   "scripts": {
     "build": "npm install && typings install && tsc",
     "start": "node lib/index myconfig.js",
     "test": "mocha"
   },
-  "author": "",
+  "author": "Den Williams",
   "license": "MIT",
   "dependencies": {
     "homenet-core": "^4.0.0-alpha.14",
@@ -18,5 +18,16 @@
   "devDependencies": {
     "typescript": "^1.8.10",
     "typings": "^1.0.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denwilliams/homenet-app.git"
+  },
+  "keywords": [
+    "homenet"
+  ],
+  "bugs": {
+    "url": "https://github.com/denwilliams/homenet-app/issues"
+  },
+  "homepage": "https://github.com/denwilliams/homenet-app#readme"
 }
