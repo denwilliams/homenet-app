@@ -53,3 +53,4 @@ run-core-red.js
 run-homenet.js
 
 myconfig.js
+data/flows.json
