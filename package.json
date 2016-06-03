@@ -15,7 +15,7 @@
     "homenet-plugin-hue": "0.0.3",
     "homenet-plugin-milight": "0.0.2",
     "homenet-plugin-ninjablock": "0.0.1",
-    "homenet-plugin-zway": "0.0.2",
+    "homenet-plugin-zway": "0.0.3",
     "node-red": "^0.13.4"
   },
   "devDependencies": {
