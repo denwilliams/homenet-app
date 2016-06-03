@@ -24,7 +24,7 @@
       "node_modules/homenet-plugin-milight/homenet-plugin-milight.d.ts",
       "node_modules/homenet-plugin-ninjablock/homenet-plugin-ninjablock.d.ts",
       "node_modules/homenet-plugin-zway/homenet-plugin-zway.d.ts",
-      "typings/main.d.ts",
+      "typings/index.d.ts",
       "src/lib/index.ts",
       "src/plugins/index.ts"
     ],
