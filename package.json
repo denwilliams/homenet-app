@@ -18,7 +18,7 @@
     "homenet-plugin-zway": "0.0.3",
     "node-red": "^0.13.4",
     "node-red-contrib-avr-yamaha": "^0.5.1",
-    "node-red-contrib-flic-buttons": "0.0.5",
+    "node-red-contrib-flic-buttons-hci": "^0.1.0",
     "node-red-contrib-samsung-tv": "^0.1.0"
   },
   "devDependencies": {
