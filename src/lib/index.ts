@@ -15,5 +15,4 @@ runtime.loadPlugin(MilightPluginLoader);
 runtime.loadPlugin(NinjaBlockPluginLoader);
 runtime.loadPlugin(ZwayPluginLoader);
 
-
 runtime.start();
