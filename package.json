@@ -1,6 +1,6 @@
 {
   "name": "homenet-app",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Homenet: home automation for developers - Application",
   "main": "lib/index.js",
   "scripts": {
