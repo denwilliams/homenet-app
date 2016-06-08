@@ -20,8 +20,11 @@
     "node-red": "^0.13.4",
     "node-red-contrib-avr-yamaha": "^0.5.1",
     "node-red-contrib-flic-buttons-hci": "^0.1.0",
-    "node-red-contrib-orvibo-allone": "^0.1.0",
-    "node-red-contrib-samsung-tv": "^0.1.0"
+    "node-red-contrib-orvibo-allone": "^0.1.2",
+    "node-red-contrib-samsung-tv": "^0.1.0",
+    "node-red-contrib-slack": "^0.1.1",
+    "node-red-contrib-slackbot": "^1.0.3",
+    "node-red-node-nma": "0.0.7"
   },
   "devDependencies": {
     "typescript": "^1.8.10",
