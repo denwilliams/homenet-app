@@ -12,7 +12,7 @@
   "license": "MIT",
   "dependencies": {
     "homenet-core": "^4.0.0-alpha.23",
-    "homenet-nodes": "0.0.6",
+    "homenet-nodes": "0.0.7",
     "homenet-plugin-hue": "0.0.3",
     "homenet-plugin-milight": "0.0.2",
     "homenet-plugin-ninjablock": "0.0.3",
