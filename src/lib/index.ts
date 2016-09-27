@@ -1,7 +1,7 @@
 const RED = require('node-red');
 import core = require('homenet-core');
 
-import { HuePluginLoader, NinjaBlockPluginLoader, MilightPluginLoader/*, ZwayPluginLoader*/ } from '../plugins';
+import { HuePluginLoader, NinjaBlockPluginLoader, MilightPluginLoader, ZwayPluginLoader } from '../plugins';
 import { join } from 'path';
 
 
@@ -32,6 +32,6 @@ const runtime = core.init(RED, config);
 runtime.loadPlugin(HuePluginLoader);
 runtime.loadPlugin(MilightPluginLoader);
 runtime.loadPlugin(NinjaBlockPluginLoader);
-// runtime.loadPlugin(ZwayPluginLoader);
+runtime.loadPlugin(ZwayPluginLoader);
 
 runtime.start();
