@@ -1,5 +1,5 @@
 const RED = require('node-red');
-import core = require('homenet-core');
+import core = require('@homenet/core');
 
 import { HuePluginLoader, NinjaBlockPluginLoader, MilightPluginLoader, FlicPluginLoader, ZwayPluginLoader } from '../plugins';
 import { join } from 'path';
