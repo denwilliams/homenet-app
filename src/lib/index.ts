@@ -28,7 +28,6 @@ const config = require(configFilename);
 
 const runtime = core.init(RED, config);
 
-
 runtime.loadPlugin(HuePluginLoader);
 runtime.loadPlugin(MilightPluginLoader);
 runtime.loadPlugin(NinjaBlockPluginLoader);

@@ -1,6 +1,6 @@
 {
   "name": "homenet-app",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Homenet: home automation for developers - Application",
   "main": "lib/index.js",
   "scripts": {
@@ -11,13 +11,13 @@
   "author": "Den Williams",
   "license": "MIT",
   "dependencies": {
-    "homenet-core": "^4.0.0-beta.6",
-    "homenet-nodes": "0.0.12",
-    "homenet-plugin-flic": "0.0.5",
-    "homenet-plugin-hue": "0.0.3",
-    "homenet-plugin-milight": "0.0.2",
-    "homenet-plugin-ninjablock": "0.0.4",
-    "homenet-plugin-zway": "0.0.7",
+    "@homenet/core": "^4.0.0-beta.8",
+    "@homenet/nodes": "0.0.13",
+    "@homenet/plugin-flic": "0.0.6",
+    "@homenet/plugin-hue": "0.0.7",
+    "@homenet/plugin-milight": "0.0.5",
+    "@homenet/plugin-ninjablock": "0.0.5",
+    "@homenet/plugin-zway": "0.0.8",
     "node-red": "^0.15.2",
     "node-red-contrib-avr-yamaha": "^0.5.1",
     "node-red-contrib-flic-buttons-hci": "^0.1.5",
@@ -28,8 +28,7 @@
     "node-red-node-nma": "0.0.7"
   },
   "devDependencies": {
-    "typescript": "^1.8.10",
-    "typings": "^1.0.4"
+    "@types/node": "^7.0.4"
   },
   "repository": {
     "type": "git",
