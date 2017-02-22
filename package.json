@@ -11,7 +11,7 @@
   "author": "Den Williams",
   "license": "MIT",
   "dependencies": {
-    "@homenet/core": "^4.0.0-beta.9",
+    "@homenet/core": "^4.0.0-beta.10",
     "@homenet/nodes": "^4.0.0-beta.8",
     "@homenet/plugin-flic": "0.0.8",
     "@homenet/plugin-hue": "0.0.10",
