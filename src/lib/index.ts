@@ -1,7 +1,7 @@
 const RED = require('node-red');
 import core = require('@homenet/core');
 
-import { HuePluginLoader, NinjaBlockPluginLoader, MilightPluginLoader, FlicPluginLoader, ZwayPluginLoader } from '../plugins';
+import { HuePluginLoader, NinjaBlockPluginLoader, MilightPluginLoader, MqttPluginLoader, FlicPluginLoader, ZwayPluginLoader } from '../plugins';
 import { join } from 'path';
 
 
@@ -33,5 +33,6 @@ runtime.loadPlugin(MilightPluginLoader);
 runtime.loadPlugin(NinjaBlockPluginLoader);
 runtime.loadPlugin(FlicPluginLoader);
 runtime.loadPlugin(ZwayPluginLoader);
+runtime.loadPlugin(MqttPluginLoader);
 
 runtime.start();
