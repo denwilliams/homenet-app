@@ -16,7 +16,7 @@
     "@homenet/plugin-flic": "0.0.9",
     "@homenet/plugin-hue": "1.0.0",
     "@homenet/plugin-milight": "0.1.0",
-    "@homenet/plugin-mqtt": "0.2.0",
+    "@homenet/plugin-mqtt": "0.2.2",
     "@homenet/plugin-ninjablock": "0.0.7",
     "@homenet/plugin-zway": "0.2.2",
     "node-red": "^0.15.2",
