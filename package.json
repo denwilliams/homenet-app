@@ -14,7 +14,7 @@
     "@homenet/core": "4.0.0-beta.14",
     "@homenet/nodes": "4.0.0-beta.8",
     "@homenet/plugin-flic": "0.0.9",
-    "@homenet/plugin-hue": "0.0.10",
+    "@homenet/plugin-hue": "1.0.0",
     "@homenet/plugin-milight": "0.1.0",
     "@homenet/plugin-mqtt": "0.2.0",
     "@homenet/plugin-ninjablock": "0.0.7",
